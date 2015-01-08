@@ -16,3 +16,15 @@ html {
 *, *::before, *::after; {
 	box-sizing: inherit;
 }
+
+img {
+	width: 100%;
+}
+
+body {
+	background-color: #ddd4c5;
+}
+
+.info {
+	background-color: #87724f;
+}
