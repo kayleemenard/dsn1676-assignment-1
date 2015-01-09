@@ -17,14 +17,38 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #ddd4c5;
+}
+
 img {
 	width: 100%;
 }
 
-body {
-	background-color: #ddd4c5;
+.icon {
+	width: 5%;
+	height: 5%;
 }
 
 .info {
 	background-color: #87724f;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.white {
+	color: white;
 }
