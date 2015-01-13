@@ -20,21 +20,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	
 	background-color: #ddd4c5;
 }
 
 .img-flex {
+	display: block;
 	width: 100%;
-}
-
-.icon {
-	height: 2em;
-	width: 2rem;
-	vertical-align: middle;
-}
-
-.info {
-	background-color: #87724f;
 }
 
 .inline {
@@ -56,20 +48,52 @@ body {
 /** Master Header **/
 .masthead {
 	background: transparent url("../images/masthead-bg.png") repeat left center;
+	
 	text-align: center;
 }
 
 .title {
 	background-color: #ddd4c5;
+
 	display: inline-block;
+
 	text-shadow: 3px 3px 0 #87724f;
+}
+
+.logo {
+	width: 2rem;
+	vertical-align: middle;
 }
 
 /** Content **/
 .img-border {
+	margin: 0 1.5rem 0;
+
 	border-image: url("../images/panel-border.png") 20 20 20 20 stretch stretch;
 	border-width: 20px 20px 20px 20px;
 }
+
+.icon-hat {
+	margin: 0 40% 0;
+	width: 3rem;
+}
+
+.icon-cuffs {
+	margin: 0 40% 0;
+	width: 2rem;
+}
+
+.info {
+	margin: 0 1.5rem 0 1.5rem;
+	background-color: #87724f;
+}
+
+.crimes {
+	padding-left: 1rem;
+
+	font-family: "Georgia", serif;
+}
+
 
 
 
